@@ -1,7 +1,7 @@
-let a,b;
-a=parseInt(prompt("Saisissez la valeur a"));
-b = parseInt(prompt("Saisissez la valeur b"));
 
+let a, b;
+ a = parseInt(prompt("Saisissez la valeur a"));
+ b = parseInt(prompt("Saisissez la valeur b"));
 
 
 function Bonjour () {
@@ -9,6 +9,7 @@ function Bonjour () {
 };
 
 function Double (x,y) {
+  
   x=x*2;
   y=y*2;
 
@@ -16,6 +17,7 @@ function Double (x,y) {
 }
 
 function Maxi (a,b) {
+  
   if ( a > b ) {
     return a;
   }
