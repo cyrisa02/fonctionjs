@@ -12,6 +12,30 @@
 
   };
 
+
+  function makeNegative() {
+    let myResultatHtml = document.querySelector("#myResultat");
+      let mySaisie;
+
+      mySaisie = parseFloat(prompt("Nombre (Positif ou négatif):"));
+
+    var c = -Math.abs(mySaisie);
+    myResultatHtml.innerHTML='la valeur négative est ' + c;
+  }
+      
+function even_or_odd() {
+  let myResultatHtml = document.querySelector("#myResultat");
+  let mySaisie;
+
+  mySaisie = parseFloat(prompt("Nombre (Positif ou négatif):"));
+  if (mySaisie % 2 == 0)
+   myResultatHtml.innerHTML = "la valeur  est paire ";
+  else myResultatHtml.innerHTML = "la valeur  est impaire ";
+}
+
+
+
+
   function myBoucleIfElse(){
     let myResultatHtml=document.querySelector('#myResultat');
     var mySaisie;
@@ -58,5 +82,6 @@
       }
       myResultatHtml1.innerHTML = "Le mot :" + leMot + "contient" + nbreVoyelles + "Voyelles";
     }
+
 
     
